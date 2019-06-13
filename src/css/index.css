@@ -1,0 +1,98 @@
+.typefont-lemon{
+
+}
+.typefont-lemon .container-text{
+  max-width: 800px;
+  min-width: 300px;
+  padding: 50px 30px;
+  margin: auto;
+  width: 100%;
+  text-align: center;
+}
+.typefont-lemon .search-text{
+  width: 100%;
+  max-width: 800px;
+  padding: 5px;
+}
+.typefont-lemon .miss {
+  color: red;
+}
+.typefont-lemon .result-box{
+  padding: 5px;
+  text-align: left;
+  margin: 30px auto;
+}
+.typefont-lemon .error{
+  display: none;
+}
+.typefont-lemon .success{
+  display: none;
+}
+.typefont-lemon.error .error{
+  display: block;
+}
+.typefont-lemon.success .error{
+  display: none;
+}
+.typefont-lemon.success .success{
+  display: block;
+}
+.typefont-lemon.error .success{
+  display: none;
+}
+
+.info {
+  font-size: 14px;
+  color: #F44336;
+}
+.info.success{
+  font-size: 16px;
+  color: #000;
+}
+.btn-box {
+  margin-top: 30px;
+}
+.other-btn-box {
+  margin: auto;
+}
+.other-btn-box button{
+  background-color: #ffffff;
+}
+.other-btn-box button.insert-btn{
+  background-color: #62b8ff;
+}
+.insert-btn{
+  display: none;
+}
+.view-font-box {
+  margin-top: 30px;
+  text-align: left;
+}
+.view-font-local {
+  display: none;
+}
+.typefont-lemon.error .insert-btn.error{
+  display: inline-block;
+}
+textarea {
+  resize: vertical;
+}
+button {
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: 300;
+  text-align: center;
+  vertical-align: middle;
+  white-space: nowrap;
+  text-decoration: none;
+  position: relative;
+  z-index: 1;
+  border-radius: 2px;
+  padding: 0 3em;
+  height: 50px;
+  font-size: 16px;
+  line-height: 50px;
+  cursor: pointer;
+  background-color: #62b8ff;
+  border: 1px solid #8c8c8c;
+}
